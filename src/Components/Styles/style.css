@@ -1,0 +1,67 @@
+.boton-contenedor{
+    height: 83px;
+
+    display: flex;
+    flex: 1 1;/* Queremos que esos elementos se distribuyan de forma equitativa. Mismo ancho y altura| */
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 38px;
+    background-color: #1b1b32;
+    color: white;
+    border-radius: 25px;
+    border: 2px solid white;
+    margin: 4px;
+    cursor: pointer;
+    user-select: none;/* no se puede seleccionar el texto */
+    transition: 0.3s;
+}
+.boton-contenedor:hover{
+    background-color: #5a01a7;
+    transition: 0.3s;
+}
+
+.operador{
+    background-color: #00471b;
+}
+.operador:hover{
+    background-color: #ff6600;
+    transition: 0.3s;
+}
+
+.input{
+    height: 75px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: #0a0a23;
+    color: white;
+    padding: 11px 30px 11px 11px;
+    margin: 1px solid #888;
+    box-shadow: -1px 4px 1px 1px white;
+}
+
+.boton-clear{
+    height: 80px;
+    font-size: 1.6em;/* Es 1.6 veces el tamaño del contenedor */
+    display: flex;
+    flex: 1;
+    background-color: #ac0246;
+    margin-top: 8px;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.boton-clear:hover{
+    background-color: #ebb000;
+    transition: 0.3s;
+}
